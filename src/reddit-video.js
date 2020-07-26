@@ -30,7 +30,7 @@ const fetch_reddit_video_url = async (url) => {
   }
 
   console.log("REDDIT VIDEO BOOKMARKLET");
-  console.log("POST URL", post_url);
+  console.log("POST URL", url);
   console.log("JSON VIDEO URL", json_url);
   console.log("Fetch Response", resp);
   console.log("Response JSON", resp_json);
